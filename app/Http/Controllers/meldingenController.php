@@ -55,8 +55,11 @@ $statement = $conn->prepare($query)
 //4. Execute
 $statement->execute([
     ":attractie" => $attractie,
+    ":type" => $type,
     ":capaciteit" => $capaciteit,
+    ":prioriteit" => $prioriteit,
     ":melder" => $melder,
+    ":overig" => $overig
 ]);
 
 header("Location: ../meldingen/index.php?msg=Melding opgeslagen");
