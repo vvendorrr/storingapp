@@ -25,9 +25,9 @@
                 <select name="type" id="type" class="form-input">
                     <option value="">- kies een type -</option>
                     <option value="achtbaan">Achtbaan</option>
-                    <option value="draaiende">Draaiende Attractie</option>
+                    <option value="draaiend">Draaiende Attractie</option>
                     <option value="kinder">Kinderattractie</option>
-                    <option value="restaurant">Restaurant, Cafe, Etc.</option>
+                    <option value="horeca">Restaurant, Cafe, Etc.</option>
                     <option value="show">Parkshow</option>
                     <option varue="water">Waterattractie</option>
                     <option value="overig">Overig</option>
